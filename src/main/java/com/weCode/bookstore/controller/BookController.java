@@ -15,7 +15,7 @@ public class BookController {
 
     @GetMapping("/books")
     public ResponseEntity<List<BookRecord>> getBooks() {
-        BookRecord bookRecord = new BookRecord("My First Books");
+        BookRecord bookRecord = new BookRecord("My First Book Title");
 
         List<BookRecord> books = new ArrayList<>();
 
